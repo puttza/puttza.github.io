@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap');
+        html { font-size: 18px; }
         body { font-family: 'Kanit', sans-serif; background-color: #f8fafc; }
         .timeline-line::before {
             content: '';
@@ -40,6 +41,7 @@
             <a href="#day5" class="whitespace-nowrap bg-blue-700 px-3 py-1.5 rounded-full hover:bg-blue-800 transition">Day 5-6: Kyoto</a>
             <a href="#day7" class="whitespace-nowrap bg-blue-700 px-3 py-1.5 rounded-full hover:bg-blue-800 transition">Day 7-10: Osaka</a>
             <a href="#hotels" class="whitespace-nowrap bg-blue-700 px-3 py-1.5 rounded-full hover:bg-blue-800 transition">ที่พัก</a>
+            <a href="#flight" class="whitespace-nowrap bg-blue-700 px-3 py-1.5 rounded-full hover:bg-blue-800 transition">เที่ยวบิน</a>
         </div>
     </header>
 
@@ -50,15 +52,15 @@
             <h2 class="text-lg font-bold text-blue-600 mb-3 border-b pb-2"><i class="fa-solid fa-map-location-dot mr-2"></i> ภาพรวมการเดินทาง</h2>
             <div class="space-y-3 text-sm">
                 <div class="flex items-start">
-                    <div class="w-16 font-semibold text-gray-500">20-23 พ.ค.</div>
+                    <div class="w-20 font-semibold text-gray-500">20-23 พ.ค.</div>
                     <div class="flex-1">ขับรถเช่าเที่ยว Takayama, Kamikochi, Shinhotaka, Shirakawa-go</div>
                 </div>
                 <div class="flex items-start">
-                    <div class="w-16 font-semibold text-gray-500">23-26 พ.ค.</div>
+                    <div class="w-20 font-semibold text-gray-500">23-26 พ.ค.</div>
                     <div class="flex-1">คืนรถที่เกียวโต เที่ยวเมืองเกียวโต, Uji, Nara ใช้รถสาธารณะ</div>
                 </div>
                 <div class="flex items-start">
-                    <div class="w-16 font-semibold text-gray-500">26-29 พ.ค.</div>
+                    <div class="w-20 font-semibold text-gray-500">26-29 พ.ค.</div>
                     <div class="flex-1">ย้ายมาโอซาก้า ช้อปปิ้ง เที่ยวโกเบ รินคุเอ้าท์เล็ต และเดินทางกลับ</div>
                 </div>
             </div>
@@ -66,26 +68,26 @@
 
         <!-- Day 0 -->
         <section id="day0" class="bg-white rounded-2xl shadow-sm overflow-hidden border border-gray-100">
-            <div class="bg-gray-50 px-4 py-3 border-b border-gray-200 flex justify-between items-center">
+            <div class="bg-amber-50 px-4 py-3 border-b border-gray-200 flex justify-between items-center">
                 <div>
-                    <span class="text-xs font-bold text-gray-600 uppercase tracking-wider">Day 0 • Tue 19 May</span>
-                    <h2 class="text-lg font-bold text-gray-800">Departure</h2>
+                    <span class="text-xs font-bold text-amber-600 uppercase tracking-wider">Day 0 • Tue 19 May</span>
+                    <h2 class="text-lg font-bold text-amber-800">Departure</h2>
                 </div>
-                <i class="fa-solid fa-plane-departure text-gray-400 text-xl"></i>
+                <i class="fa-solid fa-plane-departure text-amber-400 text-xl"></i>
             </div>
             <div class="p-4">
                 <div class="relative timeline-line">
                     <!-- Item -->
                     <div class="relative pl-8 pb-6 timeline-item">
-                        <div class="absolute left-1.5 top-1.5 w-2 h-2 bg-gray-500 rounded-full ring-4 ring-white"></div>
-                        <div class="text-gray-600 font-bold text-sm mb-0.5">21:00</div>
+                        <div class="absolute left-1.5 top-1.5 w-2 h-2 bg-amber-500 rounded-full ring-4 ring-white"></div>
+                        <div class="text-amber-600 font-bold text-sm mb-0.5">21:00</div>
                         <div class="font-semibold text-gray-800">สนามบินเชียงใหม่ (CNX)</div>
                         <div class="text-sm text-gray-600 mt-1">พร้อมกันที่สนามบิน เตรียมตัวเช็คอิน</div>
                     </div>
                     <!-- Item -->
                     <div class="relative pl-8 timeline-item">
-                        <div class="absolute left-1.5 top-1.5 w-2 h-2 bg-gray-500 rounded-full ring-4 ring-white"></div>
-                        <div class="text-gray-600 font-bold text-sm mb-0.5">กลางคืน</div>
+                        <div class="absolute left-1.5 top-1.5 w-2 h-2 bg-amber-500 rounded-full ring-4 ring-white"></div>
+                        <div class="text-amber-600 font-bold text-sm mb-0.5">00:35</div>
                         <div class="font-semibold text-gray-800">ออกเดินทาง</div>
                         <div class="text-sm text-gray-600 mt-1">บินไฟลท์ดึก พักผ่อนบนเครื่อง เตรียมพร้อมลุยญี่ปุ่นตอนเช้า</div>
                     </div>
@@ -532,55 +534,135 @@
                         <div class="absolute left-1.5 top-1.5 w-2 h-2 bg-cyan-500 rounded-full ring-4 ring-white"></div>
                         <div class="text-cyan-600 font-bold text-sm mb-0.5">29 พ.ค. เช้า</div>
                         <div class="font-semibold text-gray-800">เดินทางไปสนามบินคันไซ (KIX)</div>
-                        <div class="text-sm text-gray-600 mt-1">เตรียมตัวกลับ (นั่ง Nankai / JR 5 นาทีถึงสนามบิน)</div>
+                        <div class="text-sm text-gray-600 mt-1">เตรียมตัวกลับ (ขึ้นรถ Shuttle Bus ของโรงแรม)</div>
                     </div>
                 </div>
             </div>
         </section>
 
+        <section id="transportation" class="bg-white rounded-2xl shadow-sm overflow-hidden border border-gray-100"></section>
+
         <!-- Hotels -->
-        <section id="hotels" class="bg-gray-800 text-white rounded-2xl shadow-sm overflow-hidden mt-6 mb-10">
-            <div class="px-4 py-3 border-b border-gray-700 flex justify-between items-center">
-                <h2 class="text-lg font-bold"><i class="fa-solid fa-bed mr-2 text-yellow-400"></i> ที่พัก (จองแล้ว ✅)</h2>
+        <section id="hotels" class="bg-white rounded-2xl shadow-sm overflow-hidden border border-gray-100 mt-6 mb-10">
+            <div class="bg-cyan-50 px-4 py-3 border-b border-cyan-100 flex justify-between items-center">
+                <div>
+                    <span class="text-xs font-bold text-cyan-600 uppercase tracking-wider">Accommodation</span>
+                    <h2 class="text-lg font-bold text-gray-800">ที่พัก</h2>
+                </div>
+                <i class="fa-solid fa-bed text-cyan-400 text-xl"></i>
             </div>
-            <div class="p-4 space-y-4 text-sm">
+            <div class="p-4 space-y-4 text-sm text-gray-800">
                 
-                <div class="border-b border-gray-700 pb-3">
+                <div class="border-b border-gray-100 pb-3">
                     <div class="flex justify-between items-start mb-1">
-                        <h3 class="font-bold text-yellow-400">Takayama (3 คืน)</h3>
-                        <span class="text-xs text-gray-400">20 - 23 พ.ค.</span>
+                        <h3 class="font-bold text-cyan-700">Takayama (3 คืน)</h3>
+                        <span class="text-xs font-semibold text-gray-500">20 - 23 พ.ค.</span>
                     </div>
-                    <p class="font-semibold mb-1">Tabino Hotel Hida Takayama たびのホテル飛騨高山</p>
-                    <p class="text-gray-300 text-xs"><i class="fa-solid fa-check text-green-400 mr-1"></i> 13-1 Matsunokimachi, Takayama City, Gifu Prefecture, 506-0802, Japan</p>
+                    <p class="font-semibold text-gray-800 mb-1">Tabino Hotel Hida Takayama たびのホテル飛騨高山</p>
+                    <p class="text-gray-500 text-xs"><a href="https://maps.app.goo.gl/pben4kTYTprsmc5r7" target="_blank" class="hover:text-cyan-500 transition"><i class="fas fa-map-marker-alt text-cyan-400 mr-1"></i> 13-1 Matsunokimachi, Takayama City, Gifu Prefecture, 506-0802, Japan</a></p>
                 </div>
 
-                <div class="border-b border-gray-700 pb-3">
+                <div class="border-b border-gray-100 pb-3">
                     <div class="flex justify-between items-start mb-1">
-                        <h3 class="font-bold text-yellow-400">Kyoto (3 คืน)</h3>
-                        <span class="text-xs text-gray-400">23 - 26 พ.ค.</span>
+                        <h3 class="font-bold text-cyan-700">Kyoto (3 คืน)</h3>
+                        <span class="text-xs font-semibold text-gray-500">23 - 26 พ.ค.</span>
                     </div>
-                    <p class="font-semibold mb-1">Miyako Hotel Kyoto Hachijo 都ホテル 京都八条</p>
-                    <p class="text-gray-300 text-xs"><i class="fa-solid fa-check text-green-400 mr-1"></i> 17 Nishikujo Inmachi, Minami Ward, Kyoto, Kyoto Prefecture, 601-8412, Japan</p>
+                    <p class="font-semibold text-gray-800 mb-1">Miyako Hotel Kyoto Hachijo 都ホテル 京都八条</p>
+                    <p class="text-gray-500 text-xs"><a href="https://maps.app.goo.gl/njv2YY19G9Ree977A" target="_blank" class="hover:text-cyan-500 transition"><i class="fas fa-map-marker-alt text-cyan-400 mr-1"></i> 17 Nishikujo Inmachi, Minami Ward, Kyoto, Kyoto Prefecture, 601-8412, Japan</a></p>
                 </div>
 
-                <div class="border-b border-gray-700 pb-3">
+                <div class="border-b border-gray-100 pb-3">
                     <div class="flex justify-between items-start mb-1">
-                        <h3 class="font-bold text-yellow-400">Osaka (2 คืน)</h3>
-                        <span class="text-xs text-gray-400">26 - 28 พ.ค.</span>
+                        <h3 class="font-bold text-cyan-700">Osaka (2 คืน)</h3>
+                        <span class="text-xs font-semibold text-gray-500">26 - 28 พ.ค.</span>
                     </div>
-                    <p class="font-semibold mb-1">VIA INN PRIME SHINSAIBASHI YOTSUBASHI JR西日本グループ ヴィアインプライム心斎橋四ツ橋</p>
-                    <p class="text-gray-300 text-xs"><i class="fa-solid fa-check text-green-400 mr-1"></i> 1 Chome-5-10 Shinmachi, Nishi Ward, Osaka, Osaka Prefecture, 550-0013, Japan</p>
+                    <p class="font-semibold text-gray-800 mb-1">VIA INN PRIME SHINSAIBASHI YOTSUBASHI JR西日本グループ ヴィアインプライム心斎橋四ツ橋</p>
+                    <p class="text-gray-500 text-xs"><a href="https://maps.app.goo.gl/zFGRbdDRiM86sEzW7" target="_blank" class="hover:text-cyan-500 transition"><i class="fas fa-map-marker-alt text-cyan-400 mr-1"></i> 1 Chome-5-10 Shinmachi, Nishi Ward, Osaka, Osaka Prefecture, 550-0013, Japan</a></p>
                 </div>
 
                 <div>
                     <div class="flex justify-between items-start mb-1">
-                        <h3 class="font-bold text-yellow-400">Rinku Town (1 คืน)</h3>
-                        <span class="text-xs text-gray-400">28 - 29 พ.ค.</span>
+                        <h3 class="font-bold text-cyan-700">Rinku Town (1 คืน)</h3>
+                        <span class="text-xs font-semibold text-gray-500">28 - 29 พ.ค.</span>
                     </div>
-                    <p class="font-semibold mb-1">Odysis Suites Osaka Airport Hotel</p>
-                    <p class="text-gray-300 text-xs"><i class="fa-solid fa-check text-green-400 mr-1"></i> วิวทะเล ติดสถานี/Outlet 5 นาทีถึงสนามบิน KIX</p>
+                    <p class="font-semibold text-gray-800 mb-1">Odysis Suites Osaka Airport Hotel オディシススイーツ大阪エアポートホテル</p>
+                    <p class="text-gray-500 text-xs"><a href="https://maps.app.goo.gl/3rcqcxR18hSFcKAZ6" target="_blank" class="hover:text-cyan-500 transition"><i class="fas fa-map-marker-alt text-cyan-400 mr-1"></i> 1 Rinkuoraikita, Izumisano, Osaka Prefecture, 598-0048, Japan</a></p>
                 </div>
 
+            </div>
+        </section>
+
+
+        <!-- Flight Info -->
+        <section id="flight" class="bg-white rounded-2xl shadow-sm overflow-hidden border border-gray-100">
+            <div class="bg-indigo-50 px-4 py-3 border-b border-indigo-100 flex justify-between items-center">
+                <div>
+                    <span class="text-xs font-bold text-indigo-600 uppercase tracking-wider">Flight Information</span>
+                    <h2 class="text-lg font-bold text-gray-800">ข้อมูลเที่ยวบิน</h2>
+                </div>
+                <i class="fa-solid fa-plane text-indigo-400 text-xl"></i>
+            </div>
+            <div class="p-4 space-y-4">
+                <div class="flex justify-between items-center bg-gray-50 p-3 rounded-xl border border-gray-200">
+                    <span class="text-sm font-semibold text-gray-600"><i class="fa-solid fa-ticket text-gray-400 mr-1"></i> Booking Ref (PNR)</span>
+                    <span class="text-base font-bold text-indigo-700 tracking-widest bg-white px-3 py-1 rounded shadow-sm border border-gray-200">J6QRUD</span>
+                </div>
+
+                <!-- Outbound -->
+                <div class="bg-white border border-gray-200 rounded-xl p-4 shadow-sm relative overflow-hidden">
+                    <div class="absolute top-0 left-0 w-1.5 h-full bg-indigo-500"></div>
+                    <div class="flex justify-between items-start mb-3">
+                        <span class="text-xs font-bold text-white bg-indigo-500 px-2 py-1 rounded-full"><i class="fa-solid fa-plane-departure mr-1"></i> ขาไป • Wed 20 May</span>
+                        <div class="text-right">
+                            <span class="text-xs font-bold text-gray-800 block">Thai Vietjet Air</span>
+                            <span class="text-xs text-gray-500 font-semibold">VZ822</span>
+                        </div>
+                    </div>
+                    <div class="flex items-center justify-between text-center relative pt-2">
+                        <div class="w-1/3">
+                            <div class="text-2xl font-bold text-gray-800">00:35</div>
+                            <div class="text-sm font-semibold text-gray-500">เชียงใหม่</div>
+                            <div class="text-xs font-bold text-indigo-500 bg-indigo-50 inline-block px-2 py-0.5 rounded mt-1">CNX</div>
+                        </div>
+                        <div class="flex-1 px-2 relative flex justify-center items-center">
+                            <div class="w-full h-px border-t-2 border-dashed border-gray-300 absolute top-1/2 left-0 -translate-y-1/2"></div>
+                            <i class="fa-solid fa-plane text-indigo-400 relative z-10 bg-white px-2"></i>
+                        </div>
+                        <div class="w-1/3">
+                            <div class="text-2xl font-bold text-gray-800">07:55</div>
+                            <div class="text-sm font-semibold text-gray-500">โอซาก้า</div>
+                            <div class="text-xs font-bold text-indigo-500 bg-indigo-50 inline-block px-2 py-0.5 rounded mt-1">KIX</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Inbound -->
+                <div class="bg-white border border-gray-200 rounded-xl p-4 shadow-sm relative overflow-hidden">
+                    <div class="absolute top-0 left-0 w-1.5 h-full bg-rose-500"></div>
+                    <div class="flex justify-between items-start mb-3">
+                        <span class="text-xs font-bold text-white bg-rose-500 px-2 py-1 rounded-full"><i class="fa-solid fa-plane-arrival mr-1"></i> ขากลับ • Fri 29 May</span>
+                        <div class="text-right">
+                            <span class="text-xs font-bold text-gray-800 block">Thai Vietjet Air</span>
+                            <span class="text-xs text-gray-500 font-semibold">VZ823</span>
+                        </div>
+                    </div>
+                    <div class="flex items-center justify-between text-center relative pt-2">
+                        <div class="w-1/3">
+                            <div class="text-2xl font-bold text-gray-800">08:55</div>
+                            <div class="text-sm font-semibold text-gray-500">โอซาก้า</div>
+                            <div class="text-xs font-bold text-rose-500 bg-rose-50 inline-block px-2 py-0.5 rounded mt-1">KIX</div>
+                        </div>
+                        <div class="flex-1 px-2 relative flex justify-center items-center">
+                            <div class="w-full h-px border-t-2 border-dashed border-gray-300 absolute top-1/2 left-0 -translate-y-1/2"></div>
+                            <i class="fa-solid fa-plane text-rose-400 relative z-10 bg-white px-2" style="transform: scaleX(-1);"></i>
+                        </div>
+                        <div class="w-1/3">
+                            <div class="text-2xl font-bold text-gray-800">12:50</div>
+                            <div class="text-sm font-semibold text-gray-500">เชียงใหม่</div>
+                            <div class="text-xs font-bold text-rose-500 bg-rose-50 inline-block px-2 py-0.5 rounded mt-1">CNX</div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
